@@ -1,0 +1,31 @@
+{
+  "name": "posmotri-v-okno-ad",
+  "version": "1.0.0",
+  "description": "Учебный проект Яндекс Практикума. Приложение показывает видео с видами из окон и позволяет искать их по городу и времени суток.",
+  "homepage": "https://github.com/KillmeNull/posmotri-v-okno-ad#readme",
+  "bugs": {
+    "url": "https://github.com/KillmeNull/posmotri-v-okno-ad/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KillmeNull/posmotri-v-okno-ad.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "check": "prettier --check './**/*.{html,css,js}'",
+    "format": "prettier --write './**/*.{html,css,js}'",
+    "lint": "stylelint \"**/*.css\"",
+    "lintfix": "stylelint \"**/*.css\" --fix",
+    "fix": "npm run format && npm run lintfix",
+    "diff:prettier": "node scripts/prettier-diff.cjs",
+    "diff:stylelint": "node scripts/stylelint-diff.cjs"
+  },
+  "devDependencies": {
+    "prettier": "^3.10.1",
+    "stylelint": "^18.1.0"
+  }
+}
