@@ -1,51 +1,11 @@
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
+@import url(./page.css);
 
-html {
-  block-size: 100%;
-}
+@import url(./content.css);
 
-.page {
-  inline-size: 1200px;
-  block-size: 100%;
-  margin: auto;
-  color: #fff;
-  font-family: 'Fira Sans Condensed', sans-serif;
-  font-size: 18px;
-  background-color: #1b1919;
-}
+@import url(./result.css);
 
-h1,
-h2,
-h3,
-h4,
-p,
-ul,
-ol,
-li,
-blockquote,
-fieldset {
-  margin: 0;
-  padding: 0;
-}
+@import url(./button.css);
 
-ul,
-ol {
-  list-style: none;
-}
+@import url(./search-form.css);
 
-/* Кастомный скроллбар */
-.custom-scrollbar::-webkit-scrollbar {
-  width: 4px;
-}
-
-.custom-scrollbar::-webkit-scrollbar-track {
-  background: rgb(217 217 217 / 10%);
-}
-
-.custom-scrollbar::-webkit-scrollbar-thumb {
-  background-color: #D9D9D9;
-}
+@import url(./title.css);
